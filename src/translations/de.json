@@ -1,0 +1,58 @@
+{
+  "homePage": {
+    "h1": "Holding 'ZVEZDA'",
+    "subtitle": "der zuverlässigste vielseitige Exporteur & Importeur aus Ägypten und vielen anderen Ländern",
+    "block1-tile": "Wir arbeiten mit über 50 Ländern weltweit:",
+    "de": "Deutschland",
+    "fr": "Frankreich",
+    "md": "Malediven",
+    "ch": "China",
+    "jp": "Japan",
+    "uk": "Ukraine",
+    "bg": "Bulgarien",
+    "gr": "Georgien",
+    "ar": "Armenien",
+    "br": "Brasilien",
+    "ag": "Argentinien",
+    "redInfoText": "Wir arbeiten mit Produkten, die alle Qualitätskontrollen durchlaufen",
+    "block2-tile": "Wir kümmern uns um IHRE Gesundheit",
+    "prefooter-title": "Derzeit stehen umweltfreundliche Früchte und Gemüse für den Export zur Verfügung",
+    "tocatalog": "Zum Katalog"
+  },
+  "catalog": {
+    "title": "Produktkatalog:",
+    "more": "Mehr erfahren"
+  },
+  "about-us": {
+    "h1" : "Unternehmensgeschichte",
+    "red-info": "Unsere Idee war es, den Menschen hochwertige Produkte zu erschwinglichen Preisen anzubieten",
+    "component1": "Das Holding wurde 2013 von Ali Nureldin und Anna Abuladze gegründet",
+    "component2-1": "Ali überwacht direkt alle Produktionsstufen, Qualitätskontrollen und Logistikprozesse",
+    "component2-2": "Anna kümmert sich um Verhandlungen mit Partnern sowie um PR und Marketing"
+  },
+  "partnership": {
+    "h1": "Kooperationsdetails:",
+    "text-1": "Die Lieferung erfolgt wöchentlich per Schiff in alle Länder der Welt, es gibt auch Luftfracht. Wir kümmern uns um alle Berechnungen und die Logistik, während Sie hochwertige Früchte und Gemüse genießen",
+    "text-2": "Wir arbeiten über Akkreditive, um unseren Partnern ein Gefühl der Sicherheit zu geben",
+    "title": "Mindestbestellmenge",
+    "container": "Container",
+    "title-2": "Mögliche Bestückung mit verschiedenen Waren"
+  },
+  "layout": {
+    "about" : "Über uns",
+    "catalog" : "Katalog",
+    "partnership" : "Zusammenarbeit",
+    "callus" : "Kontaktieren Sie uns",
+    "more": "Mehr erfahren:",
+    "contacts": "Unsere Kontakte:"
+  },
+  "contacts": {
+    "h1": "Kontaktinformationen hinterlassen",
+    "subtitle": "Und wir werden Ihnen innerhalb einer Stunde zurückrufen.",
+    "name": "Name",
+    "firm": "Firma",
+    "phone": "Telefon",
+    "request": "Ihre Anfrage:",
+    "send": "Senden"
+  }
+}

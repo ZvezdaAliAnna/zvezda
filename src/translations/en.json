@@ -1,0 +1,58 @@
+{
+  "homePage": {
+    "h1": "Holding \"ZVEZDA\"",
+    "subtitle": "the most reliable multi-profile exporter & importer from Egypt and many other countries",
+    "block1-tile": "We work with more than 50 countries worldwide:",
+    "de": "Germany",
+    "fr": "France",
+    "md": "Maldives",
+    "ch": "China",
+    "jp": "Japan",
+    "uk": "Ukraine",
+    "bg": "Bulgaria",
+    "gr": "Georgia",
+    "ar": "Armenia",
+    "br": "Brazil",
+    "ag": "Argentina",
+    "redInfoText": "We work with products that undergo all stages of quality inspection",
+    "block2-tile": "We care about YOUR health",
+    "prefooter-title": "Currently, environmentally friendly fruits and vegetables are available for export",
+    "tocatalog": "Go to Catalog"
+  },
+  "catalog": {
+    "title": "Product Catalog:",
+    "more": "Learn More"
+  },
+  "about-us": {
+    "h1" : "Company History",
+    "red-info": "Our idea was to provide people with high-quality products at affordable prices",
+    "component1": "The holding was established in 2013 by Ali Nureldin and Anna Abuladz.",
+    "component2-1": "Ali directly oversees all stages of production, quality checks, and logistics",
+    "component2-2": "Anna handles negotiations with partners, as well as PR and marketing"
+  },
+  "partnership": {
+    "h1": "Partnership Details:",
+    "text-1": "Delivery is carried out weekly by sea to all countries around the world, and there's also air delivery. We take care of all calculations and logistics, while you enjoy high-quality fruits and vegetables",
+    "text-2": "We operate through bank accreditations, providing a sense of security to our partners",
+    "title": "Minimum Order",
+    "container": "container",
+    "title-2": "Possible assortment with different goods"
+  },
+  "layout": {
+    "about" : "About Us",
+    "catalog" : "Catalog",
+    "partnership" : "Partnership",
+    "callus" : "Contact Us",
+    "more": "Learn More:",
+    "contacts": "Our Contacts:"
+  },
+  "contacts": {
+    "h1": "Leave Contacts",
+    "subtitle": "And we will call you back within an hour",
+    "name": "Name",
+    "firm": "Company",
+    "phone": "Phone",
+    "request": "Your Inquiry:",
+    "send": "Send"
+  }
+}
