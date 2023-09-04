@@ -34,9 +34,9 @@
   },
   "scripts": {
     "start": "node server.js",
-    "build": "node scripts/build",
-    "test": "node scripts/test",
-    "eject": "node scripts/eject",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "prod": "webpack --mode production"
   },
   "eslintConfig": {

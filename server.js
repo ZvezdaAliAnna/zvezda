@@ -1,11 +1,13 @@
-const express = require("express");
-const app = express(); // create express app
+const express = require('express')
+const path = require('path')
 
-app.get("/", (req, res) => {
-    res.send("This is from express.js");
-});
+const PORT = process.env.PORT || 8080
 
-// start express server on port 5000
-app.listen(5000, () => {
-    console.log("server started on port 5000");
-});
+const app = express()
+app.use(express.static(path.join(__dirname, 'build')))
+
+app.get('*', (req, res)=> {
+    res.sendFile(path.join(__dirname, 'build', 'index.html'))
+})
+
+app.listen(PORT)
