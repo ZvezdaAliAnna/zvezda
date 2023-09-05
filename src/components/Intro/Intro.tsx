@@ -43,6 +43,11 @@ const CSSIntroSubTitle = styled.div`
   font-weight: 400;
   line-height: 80px;
   max-width: 850px;
+
+  @media only screen and (max-width: 990px) {
+    font-size: 30px;
+    line-height: 50px;
+  }
 `
 
 const CSSIntroScrollBot = styled.div`
