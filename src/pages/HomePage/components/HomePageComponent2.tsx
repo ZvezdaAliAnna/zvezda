@@ -5,7 +5,9 @@ import {useTranslation} from "react-i18next";
 
 
 const CSSHomePageComponent2 = styled.div`
-  padding: 110px 0 160px;
+  padding: 50px 0 160px;
+  background: #FFEC3A;
+  
 `
 
 const CSSHomePageComponent2Image = styled.div`
@@ -26,15 +28,6 @@ const CSSHomePageComponent2Text = styled.div`
   align-items: center;
   width: 100%;
   height: 100%;
-
-  &:before {
-    content: '';
-    display: block;
-    width: 340px;
-    height: 340px;
-    background: var(--main-1);
-    border-radius: 50%;
-  }
 
   .title {
     color: var(--text);

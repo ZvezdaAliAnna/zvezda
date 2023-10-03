@@ -18,8 +18,8 @@ const CSSProduct = styled.div`
   position: relative;
 
   .CSSProductDescroiptionn {
-    height: 50px;
-    max-height: 50px;
+    height: 80px;
+    max-height: 80px;
     text-align: center;
     overflow: hidden;
     position: absolute;
@@ -27,9 +27,8 @@ const CSSProduct = styled.div`
     border-radius: 0 0 25px 25px;
     background: #131111;
     width: 100%;
-    bottom: -30px;
+    bottom: -60px;
     left: 0;
-    word-break: break-all;
     padding: 0 20px 20px 20px;
     display: none;
   }
@@ -160,10 +159,7 @@ const Product = ({product}: any) => {
 
             <CSSProductTitle>{product.name.replace(langCode, '')}</CSSProductTitle>
             <CSSProductPrice>{product.price.formatted_with_code}</CSSProductPrice>
-            {product.description && (
-                <div className="CSSProductDescroiptionn"
-                     dangerouslySetInnerHTML={{__html: product.description}}></div>
-            )}
+            <div className="CSSProductDescroiptionn">{t('products.description')}</div>
 
         </CSSProduct>
     );

@@ -53,6 +53,15 @@ const GlobalStyle = createGlobalStyle`
       text-align: center;
     }
   }
+  
+  img.center {
+    margin: 8px auto 0;
+    display: block;
+  }
+
+  .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+    z-index: 0 !important;
+  }
  
 `;
 

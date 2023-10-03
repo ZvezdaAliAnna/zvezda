@@ -26,7 +26,7 @@
   "about-us": {
     "h1" : "Company History",
     "red-info": "Our idea was to provide people with high-quality products at affordable prices",
-    "component1": "The holding was established in 2013 by Ali Nureldin and Anna Abuladz.",
+    "component1": "The holding was established in 2013 by Ali Noureldeen and Anna Abuladze",
     "component2-1": "Ali directly oversees all stages of production, quality checks, and logistics",
     "component2-2": "Anna handles negotiations with partners, as well as PR and marketing"
   },
@@ -54,5 +54,8 @@
     "phone": "Phone",
     "request": "Your Inquiry:",
     "send": "Send"
+  },
+  "products": {
+    "description": "Order at least one container, different combinations are possible."
   }
 }

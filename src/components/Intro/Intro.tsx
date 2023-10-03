@@ -73,6 +73,7 @@ const Intro = (props: any) => {
             <div className="container">
 
                 <h1 className={props.center && 'center'}>{props.title}</h1>
+                {props.center && (<img className="center"  src="/images/flag.svg" alt="" />)}
                 {
                     props.subtitle &&
                     <CSSIntroSubTitle>{props.subtitle}</CSSIntroSubTitle>

@@ -24,7 +24,7 @@
     "more": "Mehr erfahren"
   },
   "about-us": {
-    "h1" : "Unternehmensgeschichte",
+    "h1": "Unternehmensgeschichte",
     "red-info": "Unsere Idee war es, den Menschen hochwertige Produkte zu erschwinglichen Preisen anzubieten",
     "component1": "Das Holding wurde 2013 von Ali Nureldin und Anna Abuladze gegründet",
     "component2-1": "Ali überwacht direkt alle Produktionsstufen, Qualitätskontrollen und Logistikprozesse",
@@ -39,10 +39,10 @@
     "title-2": "Mögliche Bestückung mit verschiedenen Waren"
   },
   "layout": {
-    "about" : "Über uns",
-    "catalog" : "Katalog",
-    "partnership" : "Zusammenarbeit",
-    "callus" : "Kontaktieren Sie uns",
+    "about": "Über uns",
+    "catalog": "Katalog",
+    "partnership": "Zusammenarbeit",
+    "callus": "Kontaktieren Sie uns",
     "more": "Mehr erfahren:",
     "contacts": "Unsere Kontakte:"
   },
@@ -54,5 +54,8 @@
     "phone": "Telefon",
     "request": "Ihre Anfrage:",
     "send": "Senden"
+  },
+  "products": {
+    "description": "Bestellen Sie mindestens einen Behälter, verschiedene Kombinationen sind möglich."
   }
 }

@@ -1,9 +1,8 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import styled from "styled-components";
-import {Link} from "react-router-dom";
+import {Link, useLocation} from "react-router-dom";
 import {Box, useMediaQuery} from "@mui/material";
 import {useTranslation} from "react-i18next";
-import i18next from "../../../lib/i18n";
 import Burger from "./Burger";
 
 
@@ -127,7 +126,7 @@ const CSSHeaderBurger = styled.div`
 
 `
 const useOnClickOutside = (ref: any, handler: any) => {
-    React.useEffect(() => {
+    useEffect(() => {
         const listener = (event: any) => {
             if (!ref.current || ref.current.contains(event.target)) return;
             handler(event);
@@ -145,7 +144,7 @@ const Header = () => {
     const matches = useMediaQuery("(min-width: 1100px)");
 
     const {t, i18n} = useTranslation();
-
+    const location = useLocation();
     const onLangChange = (e: any) => {
         const language = e.target.value;
         i18n.changeLanguage(language);
@@ -157,6 +156,10 @@ const Header = () => {
     useOnClickOutside(node, () => {
         setOpen(false)
     });
+
+    useEffect(() => {
+        setOpen(false)
+    }, [location , i18n.language]);
 
     if (open) {
         document.body.style.overflow = "hidden"

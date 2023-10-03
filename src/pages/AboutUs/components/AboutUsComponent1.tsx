@@ -5,9 +5,13 @@ import {useTranslation} from "react-i18next";
 const CSSAboutUsComponent1 = styled.div`
   padding: 30px 0 360px;
   background-image: url("/images/about-us-bg-2.jpg");
-  background-position: center 300px;
+  background-position: center 100%;
   background-repeat: no-repeat;
 
+  @media only screen and (max-width: 670px) {
+    background-size: 100%;
+  }
+  
   .title {
     font-size: 65px;
     font-style: normal;
